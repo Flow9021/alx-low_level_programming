@@ -1,9 +1,7 @@
 # include <stdio.h>
 
 /**
- * main- entry point for the
- * function.
- * it invokes printf to print out a given string
+ * main - the entry point of the program
  *
  * return: Always 0 (success)
  */
