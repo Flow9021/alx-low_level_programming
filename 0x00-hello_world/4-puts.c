@@ -1,13 +1,15 @@
 # include <stdio.h>
 
 /**
- * puts-prints a given string
- * followed by a new line
+ * main- entry point of
+ * function
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzel");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 
 }
