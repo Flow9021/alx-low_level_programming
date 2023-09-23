@@ -9,11 +9,10 @@
 
 char *cap_string(char *s)
 {
-	int i, j, a;
+	int i = 0;
+	int j;
 
 	int a[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
-
-	int = 0;
 
 	while (*(s + i) != '\0')
 	{
@@ -27,13 +26,14 @@ char *cap_string(char *s)
 			{
 				for (j = 0; j <= 12; j++)
 				{
-					if (a(j) == *(a + i - 1))
+					if (a[j] == *(a + i - 1))
 					{
 						*(s + i) = *(a + i) - 32;
 					}
 				}
 			}
 		}
-	i++
+	i++;
 	}
 	return (s);
+}
