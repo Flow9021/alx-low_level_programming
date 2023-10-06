@@ -10,12 +10,13 @@
 
 void *malloc_checked(unsigned int b)
 {
-	void *p = malloc(b);
+	void *ptr;
+	
+	ptr = malloc(b);
 
-	if (p == NULL)
+	if (ptr == NULL)
 	{
-		fprintf(stderr, "Error: malloc failed to allocate %u bytes.\n", b);
 		exit(98);
 	}
-	return (p);
+	return (ptr);
 }
